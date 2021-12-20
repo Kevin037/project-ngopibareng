@@ -1,0 +1,28 @@
+1. Pertama :
+Hilangkan komentar pada sintax yang dikemas dengan "//JALANKAN INI DULU YA", seperti dibawah ini
+
+	//User::create([
+        //     'nama' => 'kevin',
+        //     'email' => 'kevinadmin@gmail.com',
+        //     'alamat' => 'ngawi, jawa timur',
+        //     'no_telp' => '086754835782',
+        //     'role_id' => '1',
+        //     'password' => bcrypt('test1234'),
+        // ]);
+
+        // Role::create([
+        //     'nama_role' => 'admin'
+        // ]);
+
+        // Role::create([
+        //     'nama_role' => 'user'
+        // ]);
+        // 
+
+2. Kedua
+ketik di terminal -> php artisan migrate:fresh --seed
+
+3. Ketiga
+Komen sintax pada tahap pertama, lalu jalankan sintax dibawah ini
+--> User::factory(1000)->create();
+lalu ketikkan erintah di terminal php artisan db:seed
