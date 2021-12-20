@@ -1,4 +1,7 @@
-1. Pertama :
+1. Pertama
+Buat tabel database bernama "db_ngopibareng"
+
+2. Kedua :
 Hilangkan komentar pada sintax yang dikemas dengan "//JALANKAN INI DULU YA", seperti dibawah ini
 
 	//User::create([
@@ -19,10 +22,10 @@ Hilangkan komentar pada sintax yang dikemas dengan "//JALANKAN INI DULU YA", sep
         // ]);
         // 
 
-2. Kedua
+3. Ketiga
 ketik di terminal -> php artisan migrate:fresh --seed
 
-3. Ketiga
+4. keempat
 Komen sintax pada tahap pertama, lalu jalankan sintax dibawah ini
 --> User::factory(1000)->create();
 lalu ketikkan erintah di terminal php artisan db:seed
