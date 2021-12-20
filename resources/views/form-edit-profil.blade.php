@@ -120,7 +120,7 @@
                                                     </div>
                                                     <div class="position-relative form-group">
                                                         <label>Password</label>
-                                                        <input name="password" type="text" class="form-control" minlength="8" required>
+                                                        <input name="password" type="text" value="{{ $user->password }}" class="form-control" minlength="8" required>
                                                     <div class="invalid-feedback">
                                                             Masukkan password (min.8) !
                                                         </div>
